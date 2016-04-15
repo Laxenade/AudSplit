@@ -2,6 +2,8 @@
 This tool is meant to be used to split a audio stream into smaller pieces given all time intervals.
 
 The tool expects a `.m4a` audio stream and outputs a list of smaller `.m4a`  audio pieces
+
+If the input audio stream is not in `.m4a` format, and if it's `.aac` use `lsmash.muxer` otherwise please use `ffmpeg`
 ## Before Running
 Modify `startup.yml`(Please look at `startup.yml.def` for how to modify `startup.yml`) according to the following instructions:
 * Source: The full path of the audio file
