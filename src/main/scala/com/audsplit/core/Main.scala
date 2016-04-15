@@ -8,7 +8,7 @@ import scala.sys.process._
 import scalaj.collection.Imports._
 
 object Main extends App {
-    val reader = new YamlReader(new FileReader(System.getProperty("user.dir") + "\\Startup.yml"))
+    val reader = new YamlReader(new FileReader(System.getProperty("user.dir") + "/Startup.yml"))
     val data = reader.read()
     val map = data.asInstanceOf[java.util.HashMap[Object, Object]].asScala
     val source = map("Source").asInstanceOf[String]
