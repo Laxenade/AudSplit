@@ -1,0 +1,8 @@
+Source: [Full path of the audio file]
+Output: [Outout dir for the output files]
+Format: [Time format]
+Path:
+    - mp4box: [Path to mp4box executable]
+    - muxer: [Path to lsmash muxer executable]
+Time:
+    - [Output audio file name]: [Time range]
