@@ -4,7 +4,7 @@ This tool is meant to be used to split a audio stream into smaller pieces given 
 Modify `startup.yml`(Please look at `startup.yml.def` for how to modify `startup.yml`) according to the following instructions:
 * Source: The full path of the audio file
 * Output: The outout dir for the output files
-* Format: Time format, M(_minutes_, in the format of `01:00`) or S(_seconds_, in the format of 60)
+* Format: Time format, M(_minutes_, in the format of `01:00`) or S(_seconds_, in the format of `60`)
 * mp4box: The full path to mp4box executable
 * muxer: The full path to lsmash muxer executable
 * Time: The name for the output audio: Time range(in the foramt of `01:00-02:00` or `60-120`)
