@@ -40,3 +40,11 @@ Time:
 ## How to Run it
 1. `sbt clean assembly`
 2. `java -jar target/scala-2.11/AudSplit.jar`
+
+## Downloads
+mp4box: https://gpac.wp.mines-telecom.fr/downloads/
+
+lsmash: https://down.7086.in/vapoursynth/l-smash_r966.zip
+
+## Others
+`muxer` is not used for now, the path for muxer can be left as empty string
