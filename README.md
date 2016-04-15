@@ -1,5 +1,5 @@
 # AudSplit
-Audio Split Tool
+This Tool is meant to be used to split a audio stream into smaller pieces given all time intervals
 ## Before Running
 Modify `startup.yml`(Please look at `startup.yml.def` for how to modify `startup.yml`) according to the following instructions:
 * Source: The full path of the audio file
